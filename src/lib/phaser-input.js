@@ -1,0 +1,1 @@
+../../node_modules/@orange-games/phaser-input/build/phaser-input.js

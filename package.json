@@ -1,0 +1,46 @@
+{
+  "name": "phaserjs-project-template-es5",
+  "version": "1.0.0",
+  "description": "Initial project structure to develop HTML5 browser games with PhaserJS and ES5",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosnufe/phaserjs-project-template-es5.git"
+  },
+  "keywords": [
+    "phaserjs",
+    "games",
+    "boilerplate",
+    "template",
+    "es5",
+    "gulp",
+    "project"
+  ],
+  "author": "Carlos Núñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosnufe/phaserjs-project-template-es5/issues"
+  },
+  "homepage": "https://github.com/carlosnufe/phaserjs-project-template-es5#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-if": "^2.0.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "phaser": "^2.4.8",
+    "run-sequence": "^1.2.0"
+  },
+  "dependencies": {
+    "firebase": "^4.10.1",
+    "lodash": "^4.17.5",
+    "phaser-input": "^1.2.6"
+  }
+}

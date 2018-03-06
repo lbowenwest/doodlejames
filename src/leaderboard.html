@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: #4c95b5;
+            }
+
+             nav {
+                display: grid;
+                margin: 0;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: auto;
+                grid-gap: 0.5em;
+                align-items: center;
+                text-align: center;
+                border-bottom: 2px solid #2c5769;
+                background: #3c7690;
+            }
+
+            @media screen and (max-width: 900px) {
+                nav {
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: auto;
+                    grid-gap: 0em;
+                }
+            }
+
+            .link {
+              font-size: 1.2em;
+              text-decoration: none;
+              color: white;
+            }
+
+            .logo {
+              grid-column: 2;
+              font-size: 1.2em;
+              color: white;
+
+            }
+
+            #playLink {
+              grid-column: 1;
+            }
+
+            #leaderLink {
+              grid-column: 3;
+            }
+
+            footer {
+                display: grid;
+                grid-template-columns: 1fr;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                margin: 0 auto;
+                background-color: #fff;
+            }
+
+            footer > img {
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 900;
+                width: 100vw;
+            }
+
+        
+            main {
+              margin: 1em;
+            }
+
+            #leaderboard > h1 {
+              margin: 2em;
+              text-align: center;
+              color: #eee;
+            }
+        </style>
+        <title>Doodle James</title>
+    </head>
+    <body>
+        <header>
+          <nav class="container">
+            <div id="playLink"><a class="link" href="/">Play</a></div>
+            <div><h1 class="logo">Doodle James</h1></div>
+            <div id="leaderLink"><a class="link" href="/leaderboard">Leaderboard</a></div>
+          </nav>
+        </header>
+        <main>
+          <div id="leaderboard"><h1>Coming Soon!</h1></div>
+        </main>
+        <footer>
+          <img src="assets/images/footer.jpg" alt="">
+        </footer>
+        <script src="scripts/phaser.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
+
